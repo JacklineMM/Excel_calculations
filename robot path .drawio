@@ -1,0 +1,253 @@
+<mxfile host="app.diagrams.net" modified="2023-08-17T18:08:39.729Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="HINiSmMb9RZws4YWXwPV" version="21.6.2" type="device">
+  <diagram name="Page-1" id="ZdlL9D_077n30vhjMDNZ">
+    <mxGraphModel dx="880" dy="470" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FRBYPUL44gquCxxVwWqb-1" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 13px;&quot;&gt;Real Time Excel calculation&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="20" y="48" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FRBYPUL44gquCxxVwWqb-2" value="Start" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="30" y="110" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FRBYPUL44gquCxxVwWqb-4" value="Open excel file in the excel process scope" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="110" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FRBYPUL44gquCxxVwWqb-5" value="use a for each row activity to itereate through the file and find the sum rows in columns A and B" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="110" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FRBYPUL44gquCxxVwWqb-6" value="Write the sums of those rows in their respective positions&amp;nbsp; on column C" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="110" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FRBYPUL44gquCxxVwWqb-7" value="Start" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="30" y="360" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FRBYPUL44gquCxxVwWqb-8" value="End" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="672.5" y="230" width="85" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FRBYPUL44gquCxxVwWqb-9" value="excel and internal app" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="170" y="168" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FRBYPUL44gquCxxVwWqb-10" value="excel and internal app" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="380" y="168" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FRBYPUL44gquCxxVwWqb-11" value="excel and internal app" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="640" y="168" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FRBYPUL44gquCxxVwWqb-12" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="170" as="sourcePoint" />
+            <mxPoint x="530" y="170" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="370" y="200" />
+              <mxPoint x="530" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FRBYPUL44gquCxxVwWqb-13" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="170" as="sourcePoint" />
+            <mxPoint x="320" y="170" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="160" y="200" />
+              <mxPoint x="320" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FRBYPUL44gquCxxVwWqb-14" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="170" as="sourcePoint" />
+            <mxPoint x="800" y="170" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="640" y="200" />
+              <mxPoint x="800" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FRBYPUL44gquCxxVwWqb-15" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FRBYPUL44gquCxxVwWqb-5" target="FRBYPUL44gquCxxVwWqb-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="270" as="sourcePoint" />
+            <mxPoint x="430" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FRBYPUL44gquCxxVwWqb-16" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="FRBYPUL44gquCxxVwWqb-4" target="FRBYPUL44gquCxxVwWqb-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="270" as="sourcePoint" />
+            <mxPoint x="430" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FRBYPUL44gquCxxVwWqb-17" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.006;entryY=0.65;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.05;exitY=0.667;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="FRBYPUL44gquCxxVwWqb-2" target="FRBYPUL44gquCxxVwWqb-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="270" as="sourcePoint" />
+            <mxPoint x="430" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FRBYPUL44gquCxxVwWqb-18" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="FRBYPUL44gquCxxVwWqb-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="715" y="200" as="sourcePoint" />
+            <mxPoint x="430" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FRBYPUL44gquCxxVwWqb-19" value="&lt;b style=&quot;border-color: var(--border-color); font-size: 13px;&quot;&gt;Excel Formulas calculation&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="30" y="310" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FRBYPUL44gquCxxVwWqb-20" value="Open excel file in the excel process scope" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="360" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FRBYPUL44gquCxxVwWqb-21" value="use the fill range to write the sum of rows in column A and B on the range C1 to C11" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="360" width="225" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FRBYPUL44gquCxxVwWqb-22" value="End" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="670" y="360" width="105" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FRBYPUL44gquCxxVwWqb-23" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.01;entryY=0.617;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.022;exitY=0.65;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="FRBYPUL44gquCxxVwWqb-21" target="FRBYPUL44gquCxxVwWqb-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="270" as="sourcePoint" />
+            <mxPoint x="430" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FRBYPUL44gquCxxVwWqb-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.013;exitY=0.633;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="FRBYPUL44gquCxxVwWqb-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="270" as="sourcePoint" />
+            <mxPoint x="360" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FRBYPUL44gquCxxVwWqb-25" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.013;entryY=0.633;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.01;exitY=0.683;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="FRBYPUL44gquCxxVwWqb-7" target="FRBYPUL44gquCxxVwWqb-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="270" as="sourcePoint" />
+            <mxPoint x="430" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FRBYPUL44gquCxxVwWqb-26" value="excel and internal app" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="420" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FRBYPUL44gquCxxVwWqb-27" value="excel and internal app" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="370" y="418" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FRBYPUL44gquCxxVwWqb-28" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="420" as="sourcePoint" />
+            <mxPoint x="530" y="420" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="370" y="450" />
+              <mxPoint x="530" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FRBYPUL44gquCxxVwWqb-30" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="418" as="sourcePoint" />
+            <mxPoint x="320" y="418" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="160" y="448" />
+              <mxPoint x="320" y="448" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FRBYPUL44gquCxxVwWqb-31" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 13px;&quot;&gt;Excel Closed calculation&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="10" y="518" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FRBYPUL44gquCxxVwWqb-32" value="start" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="10" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FRBYPUL44gquCxxVwWqb-33" value="use read range workbook activity to open the excel file and save it into a data table" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="570" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FRBYPUL44gquCxxVwWqb-34" value="add data column &quot;C&quot; into the data table" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="570" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FRBYPUL44gquCxxVwWqb-35" value="for each row in the data table, assign values of ColumnA and ColumnB based on values in the respective index positions. Assign the sum of columns A &amp;amp; B to column &quot;C&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="570" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FRBYPUL44gquCxxVwWqb-36" value="Write the data table into an excel file" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="700" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FRBYPUL44gquCxxVwWqb-37" value="end" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="390" y="700" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FRBYPUL44gquCxxVwWqb-38" value="excel and internal app" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="180" y="628" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FRBYPUL44gquCxxVwWqb-40" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="630" as="sourcePoint" />
+            <mxPoint x="320" y="630" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="160" y="660" />
+              <mxPoint x="320" y="660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FRBYPUL44gquCxxVwWqb-41" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="615" y="630" as="sourcePoint" />
+            <mxPoint x="775" y="630" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="615" y="660" />
+              <mxPoint x="775" y="660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FRBYPUL44gquCxxVwWqb-42" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0.067;exitY=1.067;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="FRBYPUL44gquCxxVwWqb-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="630" as="sourcePoint" />
+            <mxPoint x="530" y="630" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="390" y="660" />
+              <mxPoint x="530" y="660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FRBYPUL44gquCxxVwWqb-43" value="excel and internal app" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="615" y="760" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FRBYPUL44gquCxxVwWqb-44" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="605" y="760" as="sourcePoint" />
+            <mxPoint x="765" y="760" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="605" y="790" />
+              <mxPoint x="765" y="790" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FRBYPUL44gquCxxVwWqb-45" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="FRBYPUL44gquCxxVwWqb-34" target="FRBYPUL44gquCxxVwWqb-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="680" as="sourcePoint" />
+            <mxPoint x="430" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FRBYPUL44gquCxxVwWqb-46" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="FRBYPUL44gquCxxVwWqb-33" target="FRBYPUL44gquCxxVwWqb-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="680" as="sourcePoint" />
+            <mxPoint x="430" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FRBYPUL44gquCxxVwWqb-47" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="FRBYPUL44gquCxxVwWqb-32" target="FRBYPUL44gquCxxVwWqb-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="680" as="sourcePoint" />
+            <mxPoint x="430" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FRBYPUL44gquCxxVwWqb-48" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="FRBYPUL44gquCxxVwWqb-36" target="FRBYPUL44gquCxxVwWqb-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="680" as="sourcePoint" />
+            <mxPoint x="430" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FRBYPUL44gquCxxVwWqb-49" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="FRBYPUL44gquCxxVwWqb-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="685" y="660" as="sourcePoint" />
+            <mxPoint x="430" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FRBYPUL44gquCxxVwWqb-50" value="internal app" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="400" y="630" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FRBYPUL44gquCxxVwWqb-51" value="internal app" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="630" y="628" width="90" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
